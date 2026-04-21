@@ -16,11 +16,11 @@
 //   console.log("you are married");
 // }
 
-// var age = 20; // number
+var age = 20; // number
 
 // // loose comparison 20 == 20??
-// if (age == "20") {
-//   console.log("double equals 20");
+// if (age == 20) {
+//   console.log("equals 20");
 // }
 
 // // strict comparison -> value + type
@@ -82,10 +82,23 @@ var lastIndex = 3;
 // }
 
 // Print only values greater than 5
-for (var i = 0; i <= array.length - 1; i++) {
-  if (array[i] > 5) {
-    console.log(array[i]);
-  }
-}
+// for (var i = 0; i < 50; i++) {
+//   console.log(2 + 4);
+// }
 
 // hello github
+
+var supercalafrajalistic = "Manar";
+
+function hello(laptop) {
+  console.log("hello " + laptop + "!");
+}
+
+function sum(x, y) {
+  return x + y;
+}
+
+var number = sum(2, 4);
+var numberTwo = sum(6, 6);
+var numberThree = sum(number, numberTwo);
+console.log(numberThree);
